@@ -1,0 +1,24 @@
+{
+    "name": "golden-company/user-bundle",
+    "description": "",
+    "type": "symfony-bundle",
+    "licence": "proprietary",
+    "authors": [
+        {
+            "name": "Red",
+            "email": "nukacolaquartz@gmail.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "GoldenCompany\\UserBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "GoldenCompany\\UserBundle\\Tests\\": "tests/"
+        }
+    }
+}
